@@ -7,10 +7,8 @@ const socketConfig = (server) => {
   const channel = io.of("/channel");
 
   chat.on("connection", (socket) => {
-    console.log(`chat 연결 ${socket.id}`);
 
     socket.on("enter-chat", async (data) => {
-      console.log(data.roomId + "에 접속");
       socket.roomId = data.roomId;
       const chatLog = await chatService.getChatLog(socket.roomId);
       socket.join(socket.roomId);
@@ -54,7 +52,6 @@ const socketConfig = (server) => {
     });
 
     socket.on("disconnect", () => {
-      console.log(socket.id + "에서 연결 해제");
       socket.leave(socket.roomId);
     });
   });
