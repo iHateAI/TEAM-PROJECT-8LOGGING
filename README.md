@@ -11,6 +11,7 @@
 - api 문서 : 서버 종료
 - 테스트 페이지 : 서버 종료
 - 시연 영상: [바로 가기](https://www.youtube.com/watch?v=0JxFWE_eXmM)
+- 프로젝트 회고: [바로 가기](https://velog.io/@hhs7425/%EC%97%98%EB%A6%AC%EC%8A%A4-2%EC%B0%A8-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
 
 <br />
 
